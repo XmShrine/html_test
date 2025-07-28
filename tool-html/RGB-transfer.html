@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="main.js"></script>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<title>网页工具箱-RGB 转化器</title>
+	</head>
+	<body>
+		<div class="main-box">
+			<div>
+				<label>
+					R:<input type="number" min="0" max="255" id="R-input">
+				</label><br>
+				<label>
+					G:<input type="number" min="0" max="255" id="G-input">
+				</label>
+				<label><br>
+					B:<input type="number" min="0" max="255" id="B-input">
+				</label><br>
+				<input type="submit" value="生成" onclick="RGBTransferGenerate()">
+				<input type="submit" value="返回首页" onclick="goto('main.html')">
+				<div id="color-block">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
